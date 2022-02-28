@@ -8,7 +8,10 @@ namespace EWBTest
         [Fact]
         public void Test1()
         {
-            Assert.True(true);
+            var a = 5;
+            var b = 9;
+            var c = a + b;
+            Assert.True(c == 11);
         }
     }
 }
