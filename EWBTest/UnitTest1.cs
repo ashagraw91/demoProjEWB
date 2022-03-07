@@ -9,7 +9,7 @@ namespace EWBTest
         public void Test1()
         {
             var a = 5;
-            var b = 6;
+            var b = 9;
             var c = a + b;
             Assert.True(c == 11);
         }
